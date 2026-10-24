@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; }
+body { font: 16px/1.5 system-ui, sans-serif; margin: 0; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px; }
+header { display: flex; justify-content: space-between; align-items: center; }
+h1 { margin: 0; }
+button { cursor: pointer; padding: 6px 12px; border-radius: 6px; border: 1px solid #8888; background: transparent; color: inherit; }
+.drop { margin: 24px 0; padding: 48px 16px; text-align: center; border: 2px dashed #8888; border-radius: 12px; }
+.drop.over { border-color: #3b82f6; background: #3b82f622; }
+.job { display: flex; gap: 12px; align-items: center; font-size: 14px; }
+.job span { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.err { color: #dc2626; }
+.muted { color: #8888; font-size: 14px; }
+ul { padding-left: 20px; }
+summary button { margin-left: 12px; font-size: 13px; }
